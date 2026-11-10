@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Full Suite" verbose="1">
+
+    <!-- Task 3 (part B): pure logic, no browser is started for these -->
+    <test name="Unit Tests - sorting logic">
+        <classes>
+            <class name="com.saucedemo.qa.tests.PriceSortValidatorTest"/>
+        </classes>
+    </test>
+
+    <!-- Tasks 2, 3 (part A), 4, 5: UI tests -->
+    <test name="UI Tests">
+        <classes>
+            <class name="com.saucedemo.qa.tests.LoginTest"/>
+            <class name="com.saucedemo.qa.tests.SortingTest"/>
+            <class name="com.saucedemo.qa.tests.PurchaseE2ETest"/>
+            <class name="com.saucedemo.qa.tests.ReviewedTest"/>
+        </classes>
+    </test>
+
+</suite>

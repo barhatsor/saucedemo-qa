@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Task 3: unit tests for the sorting-check method, no browser involved. -->
+<suite name="SauceDemo Unit Suite" verbose="1">
+    <test name="Unit Tests - sorting logic">
+        <classes>
+            <class name="com.saucedemo.qa.tests.PriceSortValidatorTest"/>
+        </classes>
+    </test>
+</suite>
